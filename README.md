@@ -85,14 +85,23 @@ dataset = project.version(1).download('yolov8') </pre>
 ## Training
 The YOLOv8 model was trained on the annotated dataset using the Roboflow platform. The training process involved optimizing the model to accurately detect and classify the various denominations of Jordanian coins.The model was trained with the following configuration:
 
-Number of Epochs: 250
-Training Configuration: Default configurations provided by Roboflow, including data augmentation 
+-**Number of Epochs:** 250
+**Training Configuration:** Default configurations provided by Roboflow, including data augmentation 
 techniques to improve generalization.
 
 
 ## Inference
 Once trained, the model can be used to perform inference on new images containing Jordanian coins. Inference can be done either locally using the provided scripts or through Roboflow's inference API. The model outputs bounding boxes around detected coins along with their corresponding class labels and confidence scores.
 
+## Usage
+
+To use the trained model for inference, follow these steps:
+
+1. Clone this repository:
+
+   ```bash
+   git clone [https://github.com/your_username/{model_name}.git](https://github.com/AlbaraShehadeh/Jordan-Coin-Detector-YOLOv8-based-Object-Detection-and-Counting.git)
+   
 
 
 ## Acknowledgments
