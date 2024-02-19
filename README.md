@@ -98,9 +98,16 @@ Once trained, the model can be used to perform inference on new images containin
 To use the trained model for inference, follow these steps:
 
 1. Clone this repository:
-
    ```bash
    git clone [https://github.com/your_username/{model_name}.git](https://github.com/AlbaraShehadeh/Jordan-Coin-Detector-YOLOv8-based-Object-Detection-and-Counting.git)
+   
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+3. Run inference on an image:
+   ```bash
+
+
    
 
 
