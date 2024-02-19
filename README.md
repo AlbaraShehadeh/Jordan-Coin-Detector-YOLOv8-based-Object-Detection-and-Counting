@@ -46,7 +46,7 @@ Example Annotated Images:
   <img src="examples/annotated/1.png" alt="Example Annotated Image 1" width="300"/>
   <img src="examples/annotated/2.png" alt="Example Annotated Image 2" width="300"/>
 </div>
-###Preprocessing
+### Preprocessing:
 
 Preprocessing ensures the dataset is in a standard format (e.g. all images are the same size). This step is essential to ensure the dataset is consistent before training a model.
 Preprocessing applies to all images in the Train, Valid, and Test set (unlike Augmentations, which only apply to the Train set).
