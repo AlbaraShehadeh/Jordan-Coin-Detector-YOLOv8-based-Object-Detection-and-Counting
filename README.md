@@ -69,12 +69,15 @@ To enhance the diversity and robustness of our dataset, we applied the following
 
 By utilizing these augmentation techniques, each training example was transformed into multiple variations, exposing the model to a broader range of scenarios. This contributed to improved performance and generalization during the object detection and counting tasks.
 
-</figure><h3 id="export-your-dataset">Export your dataset</h3><p>Once the dataset version is generated, we have a hosted dataset we can load directly into our notebook for easy training.</p><p>One way to download a dataset from Roboflow Universe is to use our pip package. we generate the appropriate code snippet directly in our UI. On a dataset’s Universe home page, click the Download this Dataset button and select YOLOv8 export format.
-</p><p>After a that , we can see a code You can copy and paste it into your Jupyter Notebook or a similar environment. When you execute it, the dataset will be downloaded to your machine in the appropriate format.</p><pre><code class="language-python">from roboflow import Roboflow
-
+</figure><h3 id="export-your-dataset">Export your dataset</h3><p>Once the dataset version is generated, we have a hosted dataset we can load directly into our notebook for easy training.</p>
+<p>One way to download a dataset from Roboflow Universe is to use our pip package. we generate the appropriate code snippet directly in our UI. On a dataset’s Universe home page, click the Download this Dataset button and select YOLOv8 export format.</p>
+<p>After a that , we can see a code You can copy and paste it into your Jupyter Notebook or a similar environment. When you execute it, the dataset will be downloaded to your machine in the appropriate format.</p>
+<pre><code class="language-python">
+from roboflow import Roboflow
 rf = Roboflow(api_key='YOUR_API_KEY')
 project = rf.workspace('WORKSPACE').project('PROJECT')
-dataset = project.version(1).download('yolov8')
+dataset = project.version(1).download('yolov8') </pre>
+
 
 ## Training
 The YOLOv8 model was trained on the annotated dataset using the Roboflow platform. The training process involved optimizing the model to accurately detect and classify the various denominations of Jordanian coins.
