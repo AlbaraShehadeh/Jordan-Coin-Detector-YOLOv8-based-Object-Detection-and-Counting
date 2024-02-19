@@ -24,14 +24,26 @@ The dataset consists of images with the following 9 classes:
 - 20-dinar
 - 50-dinar
 
-<div style="display: flex; justify-content: space-between;">
-  <img src="examples/example_1.jpg" alt="Example Annotated Image 1" width="250"/>
-  <img src="examples/example_2.jpg" alt="Example Annotated Image 2" width="250"/>
-  <img src="examples/example_3.jpg" alt="Example Annotated Image 2" width="250"/>
+<div style="display: flex; flex-direction: column; justify-content: space-between;">
+  <img src="examples/example_1.jpg" alt="Example Annotated Image 1" width="300"/>
+  <img src="examples/example_2.jpg" alt="Example Annotated Image 2" width="300"/>
 </div>
+
+<div style="display: flex; flex-direction: column; justify-content: space-between;">
+  <img src="examples/example_3.jpg" alt="Example Annotated Image 3" width="300"/>
+  <img src="examples/example_4.jpg" alt="Example Annotated Image 4" width="300"/>
+</div>
+
 
 
 
 ### Data Annotation:
 Roboflow was used for annotation, making the dataset ready for training the YOLOv8 model.
+
 Example Annotated Images:
+
+<div style="display: flex; flex-direction: column; justify-content: space-between;">
+  <img src="examples/annotated/1.png" alt="Example Annotated Image 1" width="300"/>
+  <img src="examples/annotated/2.png" alt="Example Annotated Image 2" width="300"/>
+</div>
+
