@@ -74,12 +74,11 @@ Once the dataset version is generated, we have a hosted dataset we can load dire
 One way to download a dataset from Roboflow Universe is to use our pip package. we generate the appropriate code snippet directly in our UI. On a dataset’s Universe home page, click the Download this Dataset button and select YOLOv8 export format.
 After a that , we can see a code You can copy and paste it into your Jupyter Notebook or a similar environment. When you execute it, the dataset will be downloaded to your machine in the appropriate format.
 
-<pre><code class="language-python">
+```bash
 from roboflow import Roboflow
 rf = Roboflow(api_key='YOUR_API_KEY')
 project = rf.workspace('WORKSPACE').project('PROJECT')
-dataset = project.version(1).download('yolov8') </pre>
-</p>
+dataset = project.version(1).download('yolov8') 
 
 
 ## Training
