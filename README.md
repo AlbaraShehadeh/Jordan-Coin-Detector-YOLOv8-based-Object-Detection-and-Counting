@@ -92,19 +92,24 @@ techniques to improve generalization.
 ## Inference
 Once trained, the model can be used to perform inference on new images containing Jordanian coins. Inference can be done either locally using the provided scripts or through Roboflow's inference API. The model outputs bounding boxes around detected coins along with their corresponding class labels and confidence scores.
 
-## Usage
 
-To use the trained model for inference, follow these steps:
+### Local Inference
+
+To run inference locally, follow these ste
 
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/your_username/{model_name}.git](https://github.com/AlbaraShehadeh/Jordan-Coin-Detector-YOLOv8-based-Object-Detection-and-Counting.git)
+   git clone https://github.com/AlbaraShehadeh/Jordan-Coin-Detector-YOLOv8-based-Object-Detection-and-Counting.git
    
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
 3. Run inference on an image:
    ```bash
+
+### Inference with Roboflow Platform
+Alternatively, you can perform inference using the Roboflow platform. The model outputs bounding boxes around detected coins along with their corresponding class labels and confidence scores.
+To use the trained model for inference through Roboflow's inference API, please follow this<a href="https://app.roboflow.com/coinsvision/jordan-coins-detection-nqdbs/visualize/4">link</a>.
 ## Presentation
 For more details, please refer to our presentation <a href="[https://github.com/ultralytics/ultralytics](https://prezi.com/p/edit/twuqatenzpzm/)">here</a>
 
