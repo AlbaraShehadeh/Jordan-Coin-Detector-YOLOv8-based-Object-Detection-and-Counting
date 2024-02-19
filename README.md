@@ -46,8 +46,9 @@ Example Annotated Images:
   <img src="examples/annotated/1.png" alt="Example Annotated Image 1" width="300"/>
   <img src="examples/annotated/2.png" alt="Example Annotated Image 2" width="300"/>
 </div>
-### Preprocessing:
 
+
+### Preprocessing :
 Preprocessing ensures the dataset is in a standard format (e.g. all images are the same size). This step is essential to ensure the dataset is consistent before training a model.
 Preprocessing applies to all images in the Train, Valid, and Test set (unlike Augmentations, which only apply to the Train set).
 
@@ -56,9 +57,9 @@ Auto-Orient: Auto-orient strips your images of their EXIF data so that you see i
 Resize changes your image size and, optionally, scale to a desired set of dimensions. Annotations are adjusted proportionally (except in the case of “fill” below).
 
 
-### Data Augmentation
+### Data Augmentation :
 
-To enhance the diversity and robustness of our dataset, we applied the following augmentations during the training process:
+To enhance the diversity and robustness of our dataset, we applied the following augmentation techniques during the training process:
 
 - **Flip:** Horizontal and Vertical
 - **Crop:** Minimum Zoom of 0%, Maximum Zoom of 20%
