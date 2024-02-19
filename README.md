@@ -105,7 +105,8 @@ To use the trained model for inference, follow these steps:
    pip install -r requirements.txt
 3. Run inference on an image:
    ```bash
-
+## Presentation
+For more details, please refer to our presentation <a href="[https://github.com/ultralytics/ultralytics](https://prezi.com/p/edit/twuqatenzpzm/)">here</a>
 
    
 
