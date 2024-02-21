@@ -90,7 +90,7 @@ To use the trained model for inference through Roboflow's inference API, please 
 
 ### Yolov8 Inference (Tracking & Counting)
 
-To run inference locally
+To run inference with tracking & counting the coins, please follow this <a href="https://app.roboflow.com/coinsvision/jordan-coins-detection-nqdbs/visualize/5">notebook</a>. 
 
 1. Clone this repository:
    ```bash
