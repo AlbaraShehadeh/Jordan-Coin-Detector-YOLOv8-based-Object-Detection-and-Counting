@@ -1,0 +1,20 @@
+names:
+- 1-2-dinar
+- 1-4-dinar
+- 1-dinar
+- 10-Piastres
+- 10-dinar
+- 20-dinar
+- 5-Piastres
+- 5-dinar
+- 50-dinar
+nc: 9
+roboflow:
+  license: CC BY 4.0
+  project: coins_object_detection
+  url: https://universe.roboflow.com/coinsvision/coins_object_detection/dataset/4
+  version: 4
+  workspace: coinsvision
+test: test/images
+train: train/images
+val: valid/images
