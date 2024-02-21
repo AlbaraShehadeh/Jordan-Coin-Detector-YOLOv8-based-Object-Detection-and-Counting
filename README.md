@@ -92,15 +92,18 @@ To use the trained model for inference through Roboflow's inference API, please 
 
 To run inference with tracking & counting the coins, please follow this <a href="Inference/Inference (Tracking & Counting).ipynb">notebook</a>. 
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/AlbaraShehadeh/Jordan-Coin-Detector-YOLOv8-based-Object-Detection-and-Counting.git
-   
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-3. Run inference on an image:
-   ```bash
+- **Image Inference Examples**
+<div style="display: flex; flex-direction: column; justify-content: space-between;">
+  <img src="Inference/results/3.jpg" alt="Example Inference Image 1" width="500"/>
+  <img src="Inference/results/1.jpg" alt="Example Inference Image 2" width="500"/>
+</div>
+
+
+<br>
+
+- **Video Inference Examples**
+- <iframe width="560" height="315" src="Inference/results/1-video.mp4" frameborder="0" allowfullscreen></iframe>
+
 
 
 ## Presentation
