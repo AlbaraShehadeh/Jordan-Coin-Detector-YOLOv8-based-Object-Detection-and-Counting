@@ -98,25 +98,13 @@ To run inference with tracking & counting the coins, please follow this <a href=
   <img src="Inference/results/1.jpg" alt="Example Inference Image 2" width="500"/>
 </div>
 
-
 <br>
 
 - **Video Inference Examples**
-
-
-https://github.com/AlbaraShehadeh/Jordan-Coin-Detector-YOLOv8-based-Object-Detection-and-Counting/assets/121046481/2c93ef9d-5d75-4cce-b539-1ad859116bf9
-
-
-
-  
-
-
+[Watch this video](Inference/results/1-video.mp4)
 
 ## Presentation
 For more details, please refer to our presentation <a href="https://prezi.com/p/edit/twuqatenzpzm/">here</a>
-
-   
-
 
 ## Acknowledgments
 This code is based on the YOLOv8l implementation by Ultralytics.See their <a href="https://github.com/ultralytics/ultralytics">GitHub</a> Repository for more information.
