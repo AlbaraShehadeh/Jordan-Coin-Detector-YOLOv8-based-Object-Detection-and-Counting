@@ -91,7 +91,7 @@ To use the trained model for inference through Roboflow's inference API, please 
 ### Yolov8 Inference (Tracking & Counting)
 
 To run inference with tracking & counting the coins, please follow this <a href="Inference/Inference (Tracking & Counting).ipynb">notebook</a>. 
-
+<br>
 - **Image Inference Examples**
 <div style="display: flex; flex-direction: column; justify-content: space-between;">
   <img src="Inference/results/3.jpg" alt="Example Inference Image 1" width="500"/>
