@@ -109,7 +109,7 @@ To run inference locally, follow these ste
 
 ### Inference with Roboflow Platform
 Alternatively, you can perform inference using the Roboflow platform. The model outputs bounding boxes around detected coins along with their corresponding class labels and confidence scores.
-To use the trained model for inference through Roboflow's inference API, please follow this <a href="https://app.roboflow.com/coinsvision/jordan-coins-detection-nqdbs/visualize/4">link</a>.
+To use the trained model for inference through Roboflow's inference API, please follow this <a href="https://app.roboflow.com/coinsvision/jordan-coins-detection-nqdbs/visualize/5">link</a>.
 ## Presentation
 For more details, please refer to our presentation <a href="https://prezi.com/p/edit/twuqatenzpzm/">here</a>
 
