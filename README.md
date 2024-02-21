@@ -97,7 +97,6 @@ To run inference with tracking & counting the coins, please follow this <a href=
   <img src="Inference/results/3.jpg" alt="Example Inference Image 1" width="500"/>
   <img src="Inference/results/1.jpg" alt="Example Inference Image 2" width="500"/>
 </div>
-
 <br>
 
 - **Video Inference Examples**
