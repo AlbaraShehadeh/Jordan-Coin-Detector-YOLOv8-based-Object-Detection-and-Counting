@@ -86,7 +86,7 @@ Alternatively, you can perform inference using the Roboflow platform. The model 
 To use the trained model for inference through Roboflow's inference API, please follow this <a href="https://app.roboflow.com/coinsvision/jordan-coins-detection-nqdbs/visualize/5">link</a>.
 <br>
 
-<img src="examples/roboflow_inference.png" alt="Example Roboflow Inference"/>
+<img src="examples/inferance_example.jpg" alt="Example Roboflow Inference"/>
 
 ### Yolov8 Inference (Tracking & Counting)
 
