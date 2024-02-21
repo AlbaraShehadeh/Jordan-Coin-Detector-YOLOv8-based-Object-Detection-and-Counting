@@ -100,8 +100,8 @@ To run inference with tracking & counting the coins, please follow this <a href=
 <br>
 
 - **Video Inference Examples**
-[Watch this video](Inference/results/1-video.mp4)
 
+[Embed Title](Inference/results/1-video.mp4 "@embed")
 
 
 ## Presentation
