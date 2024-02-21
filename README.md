@@ -100,8 +100,7 @@ To run inference with tracking & counting the coins, please follow this <a href=
 <br>
 
 - **Video Inference Examples**
-[Watch this video](Inference/results/1-video.mp4)
-
+[Watch this video](Inference/results/Jordanian_dinar_coins_and_banknotes.mp4)
 
 ## Presentation
 For more details, please refer to our presentation <a href="https://prezi.com/p/edit/twuqatenzpzm/">here</a>
