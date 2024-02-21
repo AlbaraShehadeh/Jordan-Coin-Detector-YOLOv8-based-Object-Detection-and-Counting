@@ -85,6 +85,7 @@ Once trained, the model can be used to perform inference on new images containin
 Alternatively, you can perform inference using the Roboflow platform. The model outputs bounding boxes around detected coins along with their corresponding class labels and confidence scores.
 To use the trained model for inference through Roboflow's inference API, please follow this <a href="https://app.roboflow.com/coinsvision/jordan-coins-detection-nqdbs/visualize/5">link</a>.
 <br>
+
 <img src="examples/roboflow_inference.png" alt="Example Roboflow Inference"/>
 
 ### Yolov8 Inference (Tracking & Counting)
