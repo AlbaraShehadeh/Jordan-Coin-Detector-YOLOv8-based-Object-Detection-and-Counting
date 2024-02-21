@@ -3,9 +3,6 @@
 ## Overview
 Jordanian Coins Vision is a computer vision project focused on detecting and recognizing Jordanian coins using YOLOv8, powered by the Roboflow platform. The project aims to achieve accurate real-time object detection and counting of various denominations of Jordanian coins.
 
-
-
-
 ## Dataset:
 The dataset for this project was created by capturing photos of Jordanian coins and then uploading them to the Roboflow platform. [dataset](https://universe.roboflow.com/coinsvision/jordan-coins-detection-nqdbs/dataset/1)
 
@@ -33,8 +30,6 @@ The dataset consists of images with the following 9 classes:
   <img src="examples/example_3.jpg" alt="Example Annotated Image 3" width="300"/>
   <img src="examples/example_4.jpg" alt="Example Annotated Image 4" width="300"/>
 </div>
-
-
 
 
 ### Data Annotation:
