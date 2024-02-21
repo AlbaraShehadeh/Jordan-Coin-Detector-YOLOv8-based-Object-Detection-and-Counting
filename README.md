@@ -88,12 +88,9 @@ To use the trained model for inference through Roboflow's inference API, please 
 <img src="examples/roboflow_inference.png" alt="Example Roboflow Inference"/>
 
 
-
-
-
 ### Yolov8 Inference (Tracking & Counting)
 
-To run inference locally, follow these ste
+To run inference locally
 
 1. Clone this repository:
    ```bash
