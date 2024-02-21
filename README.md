@@ -85,7 +85,7 @@ dataset = project.version(1).download('yolov8')
 The YOLOv8 model was trained on the annotated dataset using the Roboflow platform. The training process involved optimizing the model to accurately detect and classify the various denominations of Jordanian coins.The model was trained with the following configuration:
 
 -**Number of Epochs:** 250
-**Training Configuration:** Default configurations provided by Roboflow, including data augmentation 
+-**Training Configuration:** Default configurations provided by Roboflow, including data augmentation 
 techniques to improve generalization.
 
 
