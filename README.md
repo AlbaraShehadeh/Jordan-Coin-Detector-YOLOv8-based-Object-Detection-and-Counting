@@ -89,6 +89,7 @@ To use the trained model for inference through Roboflow's inference API, please 
 <img src="examples/inferance_example.jpg" alt="Example Roboflow Inference"/>
 
 ### Yolov8 Inference (Tracking & Counting)
+We employed YOLO for object detection and Botsort for tracking in our code. The implementation enables the counting and tracking of objects in videos. YOLO identifies objects, while Botsort assigns unique IDs for tracking across frames. This straightforward approach is particularly effective for counting and tracking objects, such as coins, in dynamic videos.
 
 To run inference with tracking & counting the coins, please follow this <a href="Inference/Inference (Tracking & Counting).ipynb">notebook</a>. 
 
@@ -101,6 +102,11 @@ To run inference with tracking & counting the coins, please follow this <a href=
 
 - **Video Inference Examples**
 [Watch this video](Inference/results/Jordanian_dinar_coins_and_banknotes.mp4)
+
+### **Usage**
+- Follow the instructions within the <a href="Inference/Inference (Tracking & Counting).ipynb">notebook</a> cells.
+- Provide the path to the input video file (video_path) in the notebook.
+- Adjust confidence threshold (confidence_threshold) and other parameters if needed.
 
 ## Presentation
 For more details, please refer to our presentation <a href="https://prezi.com/p/edit/twuqatenzpzm/">here</a>
