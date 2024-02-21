@@ -100,8 +100,14 @@ To run inference with tracking & counting the coins, please follow this <a href=
 <br>
 
 - **Video Inference Examples**
+[Watch this video](Inference/results/1-video.mp4)
 
-[Embed Title](Inference/results/1-video.mp4 "@embed")
+
+
+https://github.com/AlbaraShehadeh/Jordan-Coin-Detector-YOLOv8-based-Object-Detection-and-Counting/assets/121046481/da9ca7be-c590-42c6-920f-552b22cb1095
+
+
+
 
 
 ## Presentation
