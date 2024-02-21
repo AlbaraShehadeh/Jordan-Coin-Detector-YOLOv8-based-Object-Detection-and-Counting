@@ -101,7 +101,7 @@ To run inference with tracking & counting the coins, please follow this <a href=
 
 - **Video Inference Examples**
 [Watch this video](Inference/results/1-video.mp4)
-<video src='Inference/results/1-video.mp4' width=180/>
+
 
 ## Presentation
 For more details, please refer to our presentation <a href="https://prezi.com/p/edit/twuqatenzpzm/">here</a>
