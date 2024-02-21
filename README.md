@@ -64,31 +64,34 @@ To enhance the diversity and robustness of our dataset, we applied the following
 
 By utilizing these augmentation techniques, each training example was transformed into multiple variations, exposing the model to a broader range of scenarios. This contributed to improved performance and generalization during the object detection and counting tasks.
 
-### Export your dataset :
-Once the dataset version is generated, we have a hosted dataset we can load directly into our notebook for easy training.
-One way to download a dataset from Roboflow Universe is to use our pip package. we generate the appropriate code snippet directly in our UI. On a dataset’s Universe home page, click the Download this Dataset button and select YOLOv8 export format.
-After a that , we can see a code You can copy and paste it into your Jupyter Notebook or a similar environment. When you execute it, the dataset will be downloaded to your machine in the appropriate format.
-
-<pre>
-from roboflow import Roboflow
-rf = Roboflow(api_key='YOUR_API_KEY')
-project = rf.workspace('WORKSPACE').project('PROJECT')
-dataset = project.version(1).download('yolov8') 
-</pre></p>
-
 ## Training
 The YOLOv8 model was trained on the annotated dataset using the Roboflow platform. The training process involved optimizing the model to accurately detect and classify the various denominations of Jordanian coins.The model was trained with the following configuration:
 
-- **Number of Epochs:** 250
+- **Number of Epochs:** 200
 - **Training Configuration:** Default configurations provided by Roboflow, including data augmentation 
 techniques to improve generalization.
+
+- **Training Graphs**:
+<div style="display: flex; flex-direction: column; justify-content: space-between;">
+  <img src="Training/runs/detect/train7/results.png" alt="Example Annotated Image 1" width="500" height="350"/>
+  <img src="Training/runs/detect/train7/confusion_matrix.png" alt="Example Annotated Image 2" width="500"/>
+</div>
 
 
 ## Inference
 Once trained, the model can be used to perform inference on new images containing Jordanian coins. Inference can be done either locally using the provided scripts or through Roboflow's inference API. The model outputs bounding boxes around detected coins along with their corresponding class labels and confidence scores.
 
+### Inference with Roboflow Platform
+Alternatively, you can perform inference using the Roboflow platform. The model outputs bounding boxes around detected coins along with their corresponding class labels and confidence scores.
+To use the trained model for inference through Roboflow's inference API, please follow this <a href="https://app.roboflow.com/coinsvision/jordan-coins-detection-nqdbs/visualize/5">link</a>.
+<br>
+<img src="examples/roboflow_inference.png" alt="Example Roboflow Inference"/>
 
-### Local Inference
+
+
+
+
+### Yolov8 Inference (Tracking & Counting)
 
 To run inference locally, follow these ste
 
@@ -102,9 +105,7 @@ To run inference locally, follow these ste
 3. Run inference on an image:
    ```bash
 
-### Inference with Roboflow Platform
-Alternatively, you can perform inference using the Roboflow platform. The model outputs bounding boxes around detected coins along with their corresponding class labels and confidence scores.
-To use the trained model for inference through Roboflow's inference API, please follow this <a href="https://app.roboflow.com/coinsvision/jordan-coins-detection-nqdbs/visualize/5">link</a>.
+
 ## Presentation
 For more details, please refer to our presentation <a href="https://prezi.com/p/edit/twuqatenzpzm/">here</a>
 
